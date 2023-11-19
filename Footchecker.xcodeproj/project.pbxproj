@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC298F9D2B097D93002C0548 /* FootcheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298F9C2B097D93002C0548 /* FootcheckerApp.swift */; };
+		CC298F9F2B097D93002C0548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298F9E2B097D93002C0548 /* ContentView.swift */; };
+		CC298FA12B097D98002C0548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC298FA02B097D98002C0548 /* Assets.xcassets */; };
+		CC298FA42B097D98002C0548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC298FA32B097D98002C0548 /* Preview Assets.xcassets */; };
+		CC298FA62B097D98002C0548 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FA52B097D98002C0548 /* Persistence.swift */; };
+		CC298FB22B097EFF002C0548 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FB12B097EFF002C0548 /* LoginView.swift */; };
+		CC298FB42B097F1C002C0548 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FB32B097F1C002C0548 /* MainView.swift */; };
+		CC298FB62B097F36002C0548 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FB52B097F36002C0548 /* ActivityView.swift */; };
+		CC298FB82B097F59002C0548 /* OverallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FB72B097F59002C0548 /* OverallView.swift */; };
+		CC298FBA2B097F72002C0548 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FB92B097F72002C0548 /* MeView.swift */; };
+		CC298FBD2B098A3A002C0548 /* HealthData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC298FBB2B098A3A002C0548 /* HealthData.xcdatamodeld */; };
+		CC298FBF2B098ABE002C0548 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FBE2B098ABE002C0548 /* SaveData.swift */; };
+		CC298FC62B0998C8002C0548 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = CC298FC52B0998C8002C0548 /* FacebookAEM */; };
+		CC298FC82B0998C8002C0548 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = CC298FC72B0998C8002C0548 /* FacebookBasics */; };
+		CC298FCA2B0998C8002C0548 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC298FC92B0998C8002C0548 /* FacebookCore */; };
+		CC298FCE2B0998C9002C0548 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CC298FCD2B0998C9002C0548 /* FacebookLogin */; };
+		CC298FD12B099A9C002C0548 /* HealthData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FCF2B099A9C002C0548 /* HealthData+CoreDataClass.swift */; };
+		CC298FD22B099A9C002C0548 /* HealthData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FD02B099A9C002C0548 /* HealthData+CoreDataProperties.swift */; };
+		CC298FD42B09C48D002C0548 /* AccessDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FD32B09C48D002C0548 /* AccessDeniedView.swift */; };
+		CC298FD62B09CC94002C0548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FD52B09CC94002C0548 /* AppDelegate.swift */; };
+		CC298FD92B09E5CA002C0548 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FD72B09E5CA002C0548 /* User+CoreDataClass.swift */; };
+		CC298FDA2B09E5CA002C0548 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FD82B09E5CA002C0548 /* User+CoreDataProperties.swift */; };
+		CC298FDD2B0A1E08002C0548 /* Tree+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FDB2B0A1E08002C0548 /* Tree+CoreDataClass.swift */; };
+		CC298FDE2B0A1E08002C0548 /* Tree+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC298FDC2B0A1E08002C0548 /* Tree+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC298F992B097D93002C0548 /* Footchecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footchecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC298F9C2B097D93002C0548 /* FootcheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootcheckerApp.swift; sourceTree = "<group>"; };
+		CC298F9E2B097D93002C0548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC298FA02B097D98002C0548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC298FA32B097D98002C0548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC298FA52B097D98002C0548 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CC298FAA2B097D98002C0548 /* Footchecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Footchecker.entitlements; sourceTree = "<group>"; };
+		CC298FAB2B097D98002C0548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC298FB12B097EFF002C0548 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CC298FB32B097F1C002C0548 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CC298FB52B097F36002C0548 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		CC298FB72B097F59002C0548 /* OverallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverallView.swift; sourceTree = "<group>"; };
+		CC298FB92B097F72002C0548 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		CC298FBC2B098A3A002C0548 /* HealthData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthData.xcdatamodel; sourceTree = "<group>"; };
+		CC298FBE2B098ABE002C0548 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		CC298FCF2B099A9C002C0548 /* HealthData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC298FD02B099A9C002C0548 /* HealthData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC298FD32B09C48D002C0548 /* AccessDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessDeniedView.swift; sourceTree = "<group>"; };
+		CC298FD52B09CC94002C0548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC298FD72B09E5CA002C0548 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC298FD82B09E5CA002C0548 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC298FDB2B0A1E08002C0548 /* Tree+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tree+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC298FDC2B0A1E08002C0548 /* Tree+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tree+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC298F962B097D93002C0548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC298FCE2B0998C9002C0548 /* FacebookLogin in Frameworks */,
+				CC298FC62B0998C8002C0548 /* FacebookAEM in Frameworks */,
+				CC298FCA2B0998C8002C0548 /* FacebookCore in Frameworks */,
+				CC298FC82B0998C8002C0548 /* FacebookBasics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC298F902B097D93002C0548 = {
+			isa = PBXGroup;
+			children = (
+				CC298FDB2B0A1E08002C0548 /* Tree+CoreDataClass.swift */,
+				CC298FDC2B0A1E08002C0548 /* Tree+CoreDataProperties.swift */,
+				CC298FD72B09E5CA002C0548 /* User+CoreDataClass.swift */,
+				CC298FD82B09E5CA002C0548 /* User+CoreDataProperties.swift */,
+				CC298FCF2B099A9C002C0548 /* HealthData+CoreDataClass.swift */,
+				CC298FD02B099A9C002C0548 /* HealthData+CoreDataProperties.swift */,
+				CC298F9B2B097D93002C0548 /* Footchecker */,
+				CC298F9A2B097D93002C0548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC298F9A2B097D93002C0548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC298F992B097D93002C0548 /* Footchecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC298F9B2B097D93002C0548 /* Footchecker */ = {
+			isa = PBXGroup;
+			children = (
+				CC298FD52B09CC94002C0548 /* AppDelegate.swift */,
+				CC298F9C2B097D93002C0548 /* FootcheckerApp.swift */,
+				CC298F9E2B097D93002C0548 /* ContentView.swift */,
+				CC298FA02B097D98002C0548 /* Assets.xcassets */,
+				CC298FA52B097D98002C0548 /* Persistence.swift */,
+				CC298FAA2B097D98002C0548 /* Footchecker.entitlements */,
+				CC298FAB2B097D98002C0548 /* Info.plist */,
+				CC298FA22B097D98002C0548 /* Preview Content */,
+				CC298FB12B097EFF002C0548 /* LoginView.swift */,
+				CC298FB32B097F1C002C0548 /* MainView.swift */,
+				CC298FB52B097F36002C0548 /* ActivityView.swift */,
+				CC298FB72B097F59002C0548 /* OverallView.swift */,
+				CC298FB92B097F72002C0548 /* MeView.swift */,
+				CC298FBB2B098A3A002C0548 /* HealthData.xcdatamodeld */,
+				CC298FBE2B098ABE002C0548 /* SaveData.swift */,
+				CC298FD32B09C48D002C0548 /* AccessDeniedView.swift */,
+			);
+			path = Footchecker;
+			sourceTree = "<group>";
+		};
+		CC298FA22B097D98002C0548 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC298FA32B097D98002C0548 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC298F982B097D93002C0548 /* Footchecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC298FAE2B097D98002C0548 /* Build configuration list for PBXNativeTarget "Footchecker" */;
+			buildPhases = (
+				CC298F952B097D93002C0548 /* Sources */,
+				CC298F962B097D93002C0548 /* Frameworks */,
+				CC298F972B097D93002C0548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Footchecker;
+			packageProductDependencies = (
+				CC298FC52B0998C8002C0548 /* FacebookAEM */,
+				CC298FC72B0998C8002C0548 /* FacebookBasics */,
+				CC298FC92B0998C8002C0548 /* FacebookCore */,
+				CC298FCD2B0998C9002C0548 /* FacebookLogin */,
+			);
+			productName = Footchecker;
+			productReference = CC298F992B097D93002C0548 /* Footchecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC298F912B097D93002C0548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CC298F982B097D93002C0548 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CC298F942B097D93002C0548 /* Build configuration list for PBXProject "Footchecker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC298F902B097D93002C0548;
+			packageReferences = (
+				CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = CC298F9A2B097D93002C0548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC298F982B097D93002C0548 /* Footchecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC298F972B097D93002C0548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC298FA42B097D98002C0548 /* Preview Assets.xcassets in Resources */,
+				CC298FA12B097D98002C0548 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC298F952B097D93002C0548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC298FA62B097D98002C0548 /* Persistence.swift in Sources */,
+				CC298FDD2B0A1E08002C0548 /* Tree+CoreDataClass.swift in Sources */,
+				CC298FD12B099A9C002C0548 /* HealthData+CoreDataClass.swift in Sources */,
+				CC298FDA2B09E5CA002C0548 /* User+CoreDataProperties.swift in Sources */,
+				CC298FB42B097F1C002C0548 /* MainView.swift in Sources */,
+				CC298FD62B09CC94002C0548 /* AppDelegate.swift in Sources */,
+				CC298FD22B099A9C002C0548 /* HealthData+CoreDataProperties.swift in Sources */,
+				CC298FBF2B098ABE002C0548 /* SaveData.swift in Sources */,
+				CC298FBD2B098A3A002C0548 /* HealthData.xcdatamodeld in Sources */,
+				CC298FDE2B0A1E08002C0548 /* Tree+CoreDataProperties.swift in Sources */,
+				CC298F9F2B097D93002C0548 /* ContentView.swift in Sources */,
+				CC298FB82B097F59002C0548 /* OverallView.swift in Sources */,
+				CC298FD42B09C48D002C0548 /* AccessDeniedView.swift in Sources */,
+				CC298FB62B097F36002C0548 /* ActivityView.swift in Sources */,
+				CC298FBA2B097F72002C0548 /* MeView.swift in Sources */,
+				CC298FB22B097EFF002C0548 /* LoginView.swift in Sources */,
+				CC298F9D2B097D93002C0548 /* FootcheckerApp.swift in Sources */,
+				CC298FD92B09E5CA002C0548 /* User+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC298FAC2B097D98002C0548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC298FAD2B097D98002C0548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC298FAF2B097D98002C0548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Footchecker/Footchecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Footchecker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S2N2SH3KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Footchecker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Footchecker;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BostonHacks.Footchecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC298FB02B097D98002C0548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Footchecker/Footchecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Footchecker/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S2N2SH3KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Footchecker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Footchecker;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BostonHacks.Footchecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC298F942B097D93002C0548 /* Build configuration list for PBXProject "Footchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC298FAC2B097D98002C0548 /* Debug */,
+				CC298FAD2B097D98002C0548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC298FAE2B097D98002C0548 /* Build configuration list for PBXNativeTarget "Footchecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC298FAF2B097D98002C0548 /* Debug */,
+				CC298FB02B097D98002C0548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC298FC52B0998C8002C0548 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		CC298FC72B0998C8002C0548 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		CC298FC92B0998C8002C0548 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		CC298FCD2B0998C9002C0548 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC298FC42B0998C8002C0548 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CC298FBB2B098A3A002C0548 /* HealthData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC298FBC2B098A3A002C0548 /* HealthData.xcdatamodel */,
+			);
+			currentVersion = CC298FBC2B098A3A002C0548 /* HealthData.xcdatamodel */;
+			path = HealthData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC298F912B097D93002C0548 /* Project object */;
+}
